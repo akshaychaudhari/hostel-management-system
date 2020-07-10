@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Enter New Entry</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+<style>
+    body{
+	background-color: #EBF4FA;
+	font-family : Helvetica; 
+    }
+    
+    h1{
+	background-color: #728FCE;
+	color : white;
+	text-align : center;
+	padding:10px;
+    }
+    h3{
+        text-align: center;
+        clear:both;
+	padding:7px;
+	background-color:#cde5ef;
+	color:#333;
+	text-align:center;
+        font-family:initial;
+    }
+    
+</style>
+
+        
+    </head>
+    <body class = "boddy">
+    <h1> HOSTEL MANAGEMENT  </h1>
+    <h3>
+        <b> GIRLS DATABASE NEW ENTRY </b>
+         <form name="boysEntry" action="GnewEntry.jsp" method="POST">
+    </h3>
+    <center>
+    <table>
+        <tr><td><h3> PERSONAL INFORMATION </h3></td></tr>
+        <tr><td>ID:</td> <td><input type="text" name="ID" value="" size="20" /></td></tr>
+        <tr><td><h4> Name: </h4></td> <td><input type="text" name="Name" value="" size="20" /></td></tr>
+    <tr><td> <h4> Date of Birth:</h4></td> <td><input type="text" name="DoB" value="" size="20" /> </td>
+    </tr>
+    <tr><td><h4>Blood Group:</h4>   </td> <td>  <input type="text" name="BG" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Address:</h4> </td> <td><input type="text" name="Add" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Mobile(Self):</h4></td> <td><input type="text" name="MobS" value="" size="20" /></td>
+    </tr>
+     <tr><td><h4>Moblie(Parent):</h4></td> <td><input type="text" name="MobP" value="" size="20" /></td>
+    </tr>
+    <tr><td><h3> FEE DETAILS </h3></td></tr>
+    <tr><td><h4>Fees Paid :</h4></td> <td><input type="text" name="fee" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Fee Due :</h4></td> <td><input type="text" name="due" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Date of Payment :</h4></td> <td><input type="text" name="paydate" value="" size="20" /></td>
+    </tr>
+    <tr><td><h3> ALLOTMENT DETAILS </h3></td></tr>
+    <tr><td><h4>Wing No :</h4></td> <td><input type="text" name="wing" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Floor No :</h4></td> <td><input type="text" name="floor" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Room No :</h4></td> <td><input type="text" name="room" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Bed No :</h4></td> <td><input type="text" name="bed" value="" size="20" /></td>
+    </tr>
+    <tr><td><h3> Violations </h3></td></tr>
+    <tr><td><h4>Damage Done : </h4></td> <td><input type="text" name="damage" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Penalty Charged :</h4></td> <td><input type="text" name="penalty" value="" size="20" /></td>
+    </tr>
+    
+    <input type="hidden" name="sex" value="girl"/>
+    <tr>
+        <td>
+     
+        </td>
+    </tr>
+    </table>
+        <input class="btn btn-primary" type="submit" value="ENTER" name="Go Back" style="height: 45px;width: 75px"/>
+        </center>
+    </form>
+        <a href="girloptn.html"> <button class="btn btn-success"> <h4>GO BACK</h4>  </button>  </a>
+    </body>
+</html>
